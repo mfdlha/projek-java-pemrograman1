@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class HitungNilaiAkhirMatkul {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan Realisasi : ");
+        System.out.print("Masukkan Realisasi : ");
         int realisasiPresensi = input.nextInt();
-        System.out.println("Masukkan Presensi : ");
+        System.out.print("Masukkan Presensi : ");
         double presensi = input.nextDouble();
         int tugas = input.nextInt();
-        System.out.println("Masukkan Nilai UTS : ");
+        System.out.print("Masukkan Nilai UTS : ");
         int uts = input.nextInt();
-        System.out.println("Masukkan Nilai UAS : ");
+        System.out.print("Masukkan Nilai UAS : ");
         int uas = input.nextInt();
 
         double hasilPresensi = presensi/realisasiPresensi*10;
