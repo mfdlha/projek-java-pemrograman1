@@ -14,8 +14,8 @@ public class KonversiMataUang {
         jumlahUang = input.nextDouble();
 
         double dollar = jumlahUang/nilaiTukar;
-
-        NumberFormat formatRupiah = NumberFormat.getCurrencyInstance(new Locale("id","ID"));
+        Locale localeID = Locale.forLanguageTag("id-ID");
+        NumberFormat formatRupiah = NumberFormat.getCurrencyInstance(localeID);
         NumberFormat formatUS = NumberFormat.getCurrencyInstance(Locale.US);
 
         String hasilRupiah = formatRupiah.format(jumlahUang);
