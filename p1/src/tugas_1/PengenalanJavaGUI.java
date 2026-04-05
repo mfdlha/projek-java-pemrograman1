@@ -1,4 +1,4 @@
-package tugas;
+package tugas_1;
 
 import javax.swing.*;
 
