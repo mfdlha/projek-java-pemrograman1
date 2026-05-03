@@ -1,4 +1,4 @@
-package src.tugas_2;
+package tugas_2;
 
 import java.awt.Graphics;
 import javax.swing.JFrame;

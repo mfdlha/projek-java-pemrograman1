@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.text.*;
 
-public class KonversiMataUang {
+public class t2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double nilaiTukar = 16994.60;

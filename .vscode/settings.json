@@ -1,14 +1,14 @@
 {
     "java.project.sourcePaths": [
-        "p9_muhammadfadhillahakbar/src",
+        "p1_muhammadfadhillahakbar/src",
+        "p2_muhammadfadhillahakbar/src",
+        "p3_muhammadfadhillahakbar/src",
+        "p4_muhammadfadhillahakbar/src",
+        "p5_muhammadfadhillahakbar/src",
+        "p6_muhammadfadhillahakbar/src",
+        "p7_muhammadfadhillahakbar/src",
         "p8_muhammadfadhillahakbar/src",
-        "p7/src",
-        "p6/src",
-        "p5/src",
-        "p4/src",
-        "p3/src/latihan_1",
-        "p1_muhammadfadhillahakbar",
-        "p4_muhammadfadhillahakbar"
+        "p9_muhammadfadhillahakbar/src",
     ],
     "java.project.referencedLibraries": []
 }

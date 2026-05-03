@@ -1,8 +1,8 @@
-package latihan;
+package latihan_1;
 
 import java.util.Scanner;
 
-public class VariabelJava {
+public class l1 {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     String nama, prodi, kelas, asal;
