@@ -58,6 +58,10 @@ class University implements Lembaga, Tingkat {
         return Level;
     }
 
+    public String getLevel(){
+        return Level;
+    }
+
     public String toString(){
         return 
         "Name : "+Name+"\n"+
@@ -95,5 +99,40 @@ class SMA implements Lembaga, Tingkat {
         return Name;
     }
 
-    
+    public String getAddress(){
+        return Address;
+    }
+
+    public String getPhone(){
+        return Phone;
+    }
+
+    public String getLevel(){
+        return Level;
+    }
+
+    public String toString(){
+        return 
+        "Name : "+Name+"\n"+
+        "Level : "+Level+"\n"+
+        "Address : "+Address+"\n"+
+        "Phone : "+Phone+"\n"+
+        "District : "+District+"\n"+
+        "Province : "+Province;
+    }
+
+    public void setLevel(String level) {
+        this.Level = level;     
+    }
+}
+
+public class l2 {
+    public static void main(String args[]) {
+        University Unpam;
+        Unpam = new University("Universitas Pamulang", "Jl. Surya Kencana No. 1", "+62 21 7412566", "Universitas");
+        SMA SMAN2 = new SMA("SMAN 2 Tangerang Selatan", "Jl. Raya Puspitek Muncul", "+62 21", "SLTA");
+        System.out.println("Informasi Lembaga Pendidikan : \n" + Unpam.toString());
+        System.out.println();
+        System.out.println("Informasi Lembaga Pendidikan : \n" + SMAN2.toString());
+    }
 }
