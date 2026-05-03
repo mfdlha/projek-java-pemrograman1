@@ -1,4 +1,4 @@
-package latihan_1;
+package src.latihan_1;
 
 import java.util.Scanner;
 public class l1 {

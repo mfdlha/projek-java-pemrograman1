@@ -1,5 +1,6 @@
-package latihan;
-public class PengenalanJava{
+package src.latihan_1;
+
+public class l1 {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
